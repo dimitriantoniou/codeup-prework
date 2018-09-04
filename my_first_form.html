@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta chars="utf-8">
+		<title>My First HTML Form</title>
+	</head>
+	<body>
+		<h1>User Login</h1>
+			<form method="POST" action="https://www.requestwatch.com/w/6wvk3fic">
+				<p>
+					<label for="username">Username</label>
+					<input id="username" name="username" type="text" placeholder="Enter username here">
+				</p>
+				<p>	
+					<label for="password">Password</label>
+					<input id="password" name="password" type="password" placeholder="Enter password here">
+				</p>
+				<p>
+					<button type="submit">Login</button>
+				</p>
+			</form>
+		<h1>Compose Email</h1>
+			<form method="POST" action="https://www.requestwatch.com/w/6wvk3fic">
+				<p>
+					<label for="to">To:</label>
+					<input id="to" name="to" type="text" placeholder="Enter to here">
+				</p>
+				<p>
+					<label for="from">From:</label>
+					<input id="from" name="from" type="text" placeholder="Enter from here">
+				</p>
+				<p>
+					<label for="subject">Subject:</label>
+					<input id="subject" name="subject" type="text" placeholder="Enter subject here">
+				</p>
+				<p>
+					<textarea id="email_body" name="email_body">Content Here</textarea>
+				</p>
+				<p>
+					<button type="send">Send</button>
+				</p>
+				<p>
+					<label><input type="checkbox" id="save_a_copy" name="save_a_copy" value="yes"checked>Do you want to save a copy to your sent folder?</label><br>
+				<p>
+					<input type="checkbox" id="mailing_list" name="mailing_list" value="yes"checked>
+					<label for="mailing_list">Sign me up for the mailing list!</label>
+					<button type="submit">Sign me up!</button>
+				</p>
+				<p>What are you interested in learning about?</p>
+					<label><input type="checkbox" id="Friends" name="choice[]" value="Friends">Friends</label>
+					<label><input type="checkbox" id="Fun" name="choice[]" value="Fun">Fun</label>
+			</form>
+		<h1>Help us out with this survey! How did you hear about us?</h1>
+			<label>
+				<input type="radio" name="q1" value="Google">Google
+			</label>
+			<label>	
+				<input type="radio" name="q1" value="Facebook">Facebook
+			</label>
+			<label>	
+				<input type="radio" name="q1" value="Website">Website
+			</label>
+			<button type="submit">Submit</button>
+		<h1>Form Test</h1>
+			<form method="POST" action="https://www.requestwatch.com/w/6wvk3fic">
+				<label for="testing">Select testing </label>
+				<select id="" name="testomg">
+					<option value="1">Yes</option>
+					<option selected value="0">No</option>
+				</select>
+
+				<button type ="submit">Submit</button>
+			</form>
+			<form method="POST" action="https://www.requestwatch.com/w/6wvk3fic">
+				<label for="passengers">Select your potential # of passengers type: </label>
+				<select id="passengers" name="passengers[]" multiple>
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+					<option value="4">Four</option>
+					<option value="5">Five</option>
+				</select>
+
+				<button type ="submit">Submit</button>
+			</form>
+			
+	</body>
+</html>
